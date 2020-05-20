@@ -1,0 +1,66 @@
+body{
+    font-family: 'quicksand';
+}
+.title{
+    color: #303030;
+}
+.header{
+    height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.gallery{
+    margin-left: 90px;
+}
+
+.icons a{
+    color: #bdbdbd;
+}
+.icons{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#icon1 :hover{
+    color: rgb(238, 62, 9);
+}
+#icon2 :hover{
+    color: rgb(0, 137, 250);
+}
+#icon3 :hover{
+    color: rgb(0, 204, 255);
+}
+#icon4 :hover{
+    color: rgb(0, 0, 0);
+}
+
+.second{
+    margin-top: 24px;
+}
+
+.hidden-title{
+    display: none;
+}
+
+.card:hover  .hidden-title {
+    display: block;
+}
+
+.heart{
+    position: relative;
+    text-align: center;
+}
+
+#heart-icon {
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

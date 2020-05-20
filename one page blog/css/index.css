@@ -1,0 +1,66 @@
+.minimize{
+  margin-left: 40px;
+  width: 80%;
+  height: 70%;
+}
+
+.sign-in{
+  height: 680px;
+}
+#sign-in-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.title{
+  margin-top: 60px;
+  font-size: 45px;
+  font-family: 'quicksand';
+  color: rgb(40, 40, 40);
+}
+
+.text-2{
+  font-size: 24px;
+  margin-top: 60px;
+  color: rgb(60, 60, 60);
+}
+
+.third-part{
+  margin-top: 80px;
+}
+
+.btn{
+  background-color: #3F7BB7 !important;
+  font-family: 'quicksand';
+  text-transform: capitalize;
+}
+
+.text-3{
+  font-size: 20px;
+  margin-top: 60px;
+  color: rgb(60, 60, 60);
+}
+.seconde{
+  color: #3F7BB7;
+}
+
+.icons{
+  font-size: 24px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons a{
+  color: rgb(184, 184, 184);
+}
+
+#icon1 :hover{
+  color: rgb(238, 62, 9);
+}
+#icon2 :hover{
+  color: rgb(0, 137, 250);
+}
+#icon3 :hover{
+  color: rgb(0, 204, 255);
+}
